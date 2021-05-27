@@ -1,5 +1,13 @@
 package com.dan.cuentacorriente.domain;
 
+
+import javax.persistence.Entity;
+//import javax.persistence.PrimaryKeyJoinColumn;
+import javax.persistence.DiscriminatorValue;
+
+@Entity
+@DiscriminatorValue(value = "Transferencia")
+//@PrimaryKeyJoinColumn(referencedColumnName = "id")
 public class Transferencia extends MedioPago {
 
 	private String cbuOrigen;
@@ -23,6 +31,11 @@ public class Transferencia extends MedioPago {
 	}
 	public void setCbuDestino(String cbuDestino) {
 		this.cbuDestino = cbuDestino;
+	}
+	@Override
+	public String toString() {
+		return "Transferencia [cbuOrigen=" + cbuOrigen + ", cbuDestino=" + cbuDestino + ", codigoTransferencia="
+				+ codigoTransferencia + ", id=" + id + ", observacion=" + observacion + "]";
 	}
 	
 	

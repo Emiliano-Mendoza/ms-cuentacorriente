@@ -2,12 +2,17 @@ package com.dan.cuentacorriente.rest;
 
 import com.dan.cuentacorriente.domain.Cliente;
 
+import com.dan.cuentacorriente.service.ClienteService;
+
+import java.net.URI;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 import java.util.OptionalInt;
 import java.util.stream.IntStream;
 
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -29,90 +34,72 @@ import io.swagger.annotations.ApiResponses;
 @Api(value = "ClienteRest")
 public class ClienteRest {
     
-    private static final List<Cliente> listaClientes = new ArrayList<>();
-    private static Integer ID_GEN = 1;
+    @Autowired
+    private ClienteService clienteServ;
 
     @GetMapping(path = "/id/{id}")
     @ApiOperation(value = "Busca un cliente por id")
-    public ResponseEntity<Cliente> clientePorId(@PathVariable Integer id){
-
-        Optional<Cliente> c =  listaClientes
-                .stream()
-                .filter(unCli -> unCli.getId().equals(id))
-                .findFirst();
-        return ResponseEntity.of(c);
+    public ResponseEntity<Optional<Cliente>> clientePorId(@PathVariable Integer id){
+    	return ResponseEntity.ok(clienteServ.findById(id));
     }
     
     @GetMapping(path = "/cuit/{cuit}")
     @ApiOperation(value = "Busca un cliente por cuit")
-    public ResponseEntity<Cliente> clientePorCuit(@PathVariable String cuit){
-
-        Optional<Cliente> c =  listaClientes
-                .stream()
-                .filter(unCli -> unCli.getCuit().equals(cuit))
-                .findFirst();
-        return ResponseEntity.of(c);
+    public ResponseEntity<Optional<Cliente>> clientePorCuit(@PathVariable String cuit){
+    	return ResponseEntity.ok(clienteServ.findByCuit(cuit));
     }
     
     @GetMapping(path = "/razonSocial/{razonSocial}")
     @ApiOperation(value = "Busca un cliente por razonSocial")
-    public ResponseEntity<Cliente> clientePorRazonSocial(@PathVariable String razonSocial){
-
-        Optional<Cliente> c =  listaClientes
-                .stream()
-                .filter(unCli -> unCli.getRazonSocial().equals(razonSocial))
-                .findFirst();
-        return ResponseEntity.of(c);
+    public ResponseEntity<Optional<Cliente>> clientePorRazonSocial(@PathVariable String razonSocial){
+    	return ResponseEntity.ok(clienteServ.findByRazonSocial(razonSocial));
     }
 
     @GetMapping
     public ResponseEntity<List<Cliente>> todos(){
-        return ResponseEntity.ok(listaClientes);
+        return ResponseEntity.ok(clienteServ.getAllClientes());
     }
 
-    @PostMapping
-    public ResponseEntity<Cliente> crear(@RequestBody Cliente nuevo){
-    	System.out.println(" crear cliente "+nuevo);
-        nuevo.setId(ID_GEN++);
-        listaClientes.add(nuevo);
-        return ResponseEntity.ok(nuevo);
-    }
+//    @PostMapping
+//    public ResponseEntity<Cliente> crear(@RequestBody Cliente nuevo){
+//    	System.out.println(" crear cliente "+nuevo);
+//    	Cliente temp = clienteServ.createCliente(nuevo);
+//        
+//        try {
+//        	return ResponseEntity.created(new URI("/api/cliente" + temp.getId())).body(temp);
+//        	
+//        }catch(Exception e) {
+//        	return ResponseEntity.status(HttpStatus.BAD_REQUEST).build();
+//        }
+//    }
 
-    @PutMapping(path = "/id/{id}")
-    @ApiOperation(value = "Actualiza un cliente")
-    @ApiResponses(value = {
-        @ApiResponse(code = 200, message = "Actualizado correctamente"),
-        @ApiResponse(code = 401, message = "No autorizado"),
-        @ApiResponse(code = 403, message = "Prohibido"),
-        @ApiResponse(code = 404, message = "El ID no existe")
-    })
-    public ResponseEntity<Cliente> actualizar(@RequestBody Cliente nuevo,  @PathVariable Integer id){
-        
-    	OptionalInt indexOpt =   IntStream.range(0, listaClientes.size())
-        .filter(i -> listaClientes.get(i).getId().equals(id))
-        .findFirst();
-
-        if(indexOpt.isPresent()){
-            listaClientes.set(indexOpt.getAsInt(), nuevo);
-            return ResponseEntity.ok(nuevo);
-        } else {
-            return ResponseEntity.notFound().build();
-        }
-    }
-
-    @DeleteMapping(path = "/id/{id}")
-    public ResponseEntity<Cliente> borrar(@PathVariable Integer id){
-        OptionalInt indexOpt =   IntStream.range(0, listaClientes.size())
-        .filter(i -> listaClientes.get(i).getId().equals(id))
-        .findFirst();
-
-        if(indexOpt.isPresent()){
-            listaClientes.remove(indexOpt.getAsInt());
-            return ResponseEntity.ok().build();
-        } else {
-            return ResponseEntity.notFound().build();
-        }
-    }
+//    @PutMapping(path = "/id/{id}")
+//    @ApiOperation(value = "Actualiza un cliente")
+//    @ApiResponses(value = {
+//        @ApiResponse(code = 200, message = "Actualizado correctamente"),
+//        @ApiResponse(code = 401, message = "No autorizado"),
+//        @ApiResponse(code = 403, message = "Prohibido"),
+//        @ApiResponse(code = 404, message = "El ID no existe")
+//    })
+//    public ResponseEntity<Cliente> actualizar(@RequestBody Cliente nuevo,  @PathVariable Integer id){
+//        
+//    	OptionalInt indexOpt =   IntStream.range(0, listaClientes.size())
+//        .filter(i -> listaClientes.get(i).getId().equals(id))
+//        .findFirst();
+//
+//        if(indexOpt.isPresent()){
+//            listaClientes.set(indexOpt.getAsInt(), nuevo);
+//            return ResponseEntity.ok(nuevo);
+//        } else {
+//            return ResponseEntity.notFound().build();
+//        }
+//    }
+//
+//    @DeleteMapping(path = "/id/{id}")
+//    public ResponseEntity<Cliente> borrar(@PathVariable Integer id){
+//    	clienteServ.deleteClientePorId(id);
+//        return ResponseEntity.ok().build();
+//    }
 
 
 }
