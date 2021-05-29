@@ -1,0 +1,110 @@
+2021-05-27 00:00:30,728 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-8] A continuacion se ejecutara el metodo: createMedioPago
+2021-05-27 00:00:30,762 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-8] Metodo de la clase: class com.dan.cuentacorriente.service.impl.MedioPagoServiceImpl
+2021-05-27 00:00:30,762 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-8] Argumentos: [Efectivo [nroRecibo=323, id=null, observacion=observacion 1]]
+2021-05-27 00:00:30,783 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-8] Se ha ejecutado el metodo: createMedioPago
+2021-05-27 00:00:30,786 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-8] A continuacion se ejecutara el metodo: createPago
+2021-05-27 00:00:30,786 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-8] Metodo de la clase: class com.dan.cuentacorriente.service.impl.PagoServiceImpl
+2021-05-27 00:00:30,786 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-8] Argumentos: [Pago [id=null, cliente=com.dan.cuentacorriente.domain.Cliente@2be9ccbc, fechaPago=2021-05-27T03:00:30.784075700Z, medio=Efectivo [nroRecibo=323, id=6, observacion=observacion 1]]]
+2021-05-27 00:00:30,805 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-8] Se ha ejecutado el metodo: createPago
+2021-05-27 19:38:31,317 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting CuentacorrienteApplication using Java 15.0.1 on DESKTOP-KTL7JPA with PID 12808 (C:\Users\Usuario\Desktop\Sistemas\Electivas\Desarrollo de aplicaciones en la Nube\Laboratorio\cuentacorriente\target\classes started by Usuario in C:\Users\Usuario\Desktop\Sistemas\Electivas\Desarrollo de aplicaciones en la Nube\Laboratorio\cuentacorriente)
+2021-05-27 19:38:31,354 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-05-27 19:38:39,864 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started CuentacorrienteApplication in 9.258 seconds (JVM running for 10.77)
+2021-05-27 19:40:12,936 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-2] A continuacion se ejecutara el metodo: createMedioPago
+2021-05-27 19:40:12,937 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-2] Metodo de la clase: class com.dan.cuentacorriente.service.impl.MedioPagoServiceImpl
+2021-05-27 19:40:12,937 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-2] Argumentos: [Efectivo [nroRecibo=323, id=null, observacion=observacion 1]]
+2021-05-27 19:40:13,014 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-2] Se ha ejecutado el metodo: createMedioPago
+2021-05-27 19:40:13,038 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-2] A continuacion se ejecutara el metodo: createPago
+2021-05-27 19:40:13,039 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-2] Metodo de la clase: class com.dan.cuentacorriente.service.impl.PagoServiceImpl
+2021-05-27 19:40:13,040 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-2] Argumentos: [Pago [id=null, cliente=com.dan.cuentacorriente.domain.Cliente@2520db9e, fechaPago=2021-05-27T22:40:13.015438700Z, medio=Efectivo [nroRecibo=323, id=1, observacion=observacion 1]]]
+2021-05-27 19:40:13,059 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-2] Se ha ejecutado el metodo: createPago
+2021-05-27 21:34:13,349 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting CuentacorrienteApplication using Java 15.0.1 on DESKTOP-KTL7JPA with PID 388 (C:\Users\Usuario\Desktop\Sistemas\Electivas\Desarrollo de aplicaciones en la Nube\Laboratorio\cuentacorriente\target\classes started by Usuario in C:\Users\Usuario\Desktop\Sistemas\Electivas\Desarrollo de aplicaciones en la Nube\Laboratorio\cuentacorriente)
+2021-05-27 21:34:13,373 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-05-27 21:34:20,103 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started CuentacorrienteApplication in 7.253 seconds (JVM running for 8.351)
+2021-05-27 21:35:07,331 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-2] A continuacion se ejecutara el metodo: createMedioPago
+2021-05-27 21:35:07,332 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-2] Metodo de la clase: class com.dan.cuentacorriente.service.impl.MedioPagoServiceImpl
+2021-05-27 21:35:07,332 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-2] Argumentos: [Efectivo [nroRecibo=323, id=null, observacion=observacion 1]]
+2021-05-27 21:35:07,409 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-2] Se ha ejecutado el metodo: createMedioPago
+2021-05-27 21:35:07,432 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-2] A continuacion se ejecutara el metodo: createPago
+2021-05-27 21:35:07,432 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-2] Metodo de la clase: class com.dan.cuentacorriente.service.impl.PagoServiceImpl
+2021-05-27 21:35:07,433 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-2] Argumentos: [Pago [id=null, cliente=com.dan.cuentacorriente.domain.Cliente@37f5382f, fechaPago=2021-05-28T00:35:07.409895100Z, medio=Efectivo [nroRecibo=323, id=1, observacion=observacion 1]]]
+2021-05-27 21:35:07,451 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-2] Se ha ejecutado el metodo: createPago
+2021-05-27 21:35:12,037 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-3] A continuacion se ejecutara el metodo: createMedioPago
+2021-05-27 21:35:12,038 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-3] Metodo de la clase: class com.dan.cuentacorriente.service.impl.MedioPagoServiceImpl
+2021-05-27 21:35:12,038 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-3] Argumentos: [Transferencia [cbuOrigen=011 - Banco de la Nación Argentina, cbuDestino=065 - Banco Municipal de Rosario, codigoTransferencia=12341, id=null, observacion=observacion]]
+2021-05-27 21:35:12,047 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-3] Se ha ejecutado el metodo: createMedioPago
+2021-05-27 21:35:12,049 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-3] A continuacion se ejecutara el metodo: createPago
+2021-05-27 21:35:12,050 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-3] Metodo de la clase: class com.dan.cuentacorriente.service.impl.PagoServiceImpl
+2021-05-27 21:35:12,050 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-3] Argumentos: [Pago [id=null, cliente=com.dan.cuentacorriente.domain.Cliente@6447e6ce, fechaPago=2021-05-28T00:35:12.048239300Z, medio=Transferencia [cbuOrigen=011 - Banco de la Nación Argentina, cbuDestino=065 - Banco Municipal de Rosario, codigoTransferencia=12341, id=2, observacion=observacion]]]
+2021-05-27 21:35:12,067 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-3] Se ha ejecutado el metodo: createPago
+2021-05-27 21:35:59,614 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-4] A continuacion se ejecutara el metodo: createMedioPago
+2021-05-27 21:35:59,614 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-4] Metodo de la clase: class com.dan.cuentacorriente.service.impl.MedioPagoServiceImpl
+2021-05-27 21:35:59,615 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-4] Argumentos: [Transferencia [cbuOrigen=011 - Banco de la Nación Argentina, cbuDestino=065 - Banco Municipal de Rosario, codigoTransferencia=12341, id=null, observacion=observacion]]
+2021-05-27 21:35:59,629 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-4] Se ha ejecutado el metodo: createMedioPago
+2021-05-27 21:35:59,632 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-4] A continuacion se ejecutara el metodo: createPago
+2021-05-27 21:35:59,632 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-4] Metodo de la clase: class com.dan.cuentacorriente.service.impl.PagoServiceImpl
+2021-05-27 21:35:59,633 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-4] Argumentos: [Pago [id=null, cliente=com.dan.cuentacorriente.domain.Cliente@51241b5, fechaPago=2021-05-28T00:35:59.629103900Z, medio=Transferencia [cbuOrigen=011 - Banco de la Nación Argentina, cbuDestino=065 - Banco Municipal de Rosario, codigoTransferencia=12341, id=3, observacion=observacion]]]
+2021-05-27 21:35:59,679 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-4] Se ha ejecutado el metodo: createPago
+2021-05-27 21:37:03,890 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-6] A continuacion se ejecutara el metodo: createMedioPago
+2021-05-27 21:37:03,891 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-6] Metodo de la clase: class com.dan.cuentacorriente.service.impl.MedioPagoServiceImpl
+2021-05-27 21:37:03,892 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-6] Argumentos: [Transferencia [cbuOrigen=011 - Banco de la Nación Argentina, cbuDestino=065 - Banco Municipal de Rosario, codigoTransferencia=12341, id=null, observacion=observacion]]
+2021-05-27 21:37:03,895 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-6] Se ha ejecutado el metodo: createMedioPago
+2021-05-27 21:37:03,898 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-6] A continuacion se ejecutara el metodo: createPago
+2021-05-27 21:37:03,898 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-6] Metodo de la clase: class com.dan.cuentacorriente.service.impl.PagoServiceImpl
+2021-05-27 21:37:03,899 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-6] Argumentos: [Pago [id=null, cliente=com.dan.cuentacorriente.domain.Cliente@37a60d4d, fechaPago=2021-05-28T00:37:03.896196500Z, medio=Transferencia [cbuOrigen=011 - Banco de la Nación Argentina, cbuDestino=065 - Banco Municipal de Rosario, codigoTransferencia=12341, id=4, observacion=observacion]]]
+2021-05-27 21:37:03,930 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-6] Se ha ejecutado el metodo: createPago
+2021-05-27 21:39:20,097 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-9] A continuacion se ejecutara el metodo: createMedioPago
+2021-05-27 21:39:20,099 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-9] Metodo de la clase: class com.dan.cuentacorriente.service.impl.MedioPagoServiceImpl
+2021-05-27 21:39:20,099 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-9] Argumentos: [Cheque [nroCheque=10, fechaCobro=null, banco=Banco de la Nación Argentina, id=null, observacion=observacion]]
+2021-05-27 21:39:20,118 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-9] Se ha ejecutado el metodo: createMedioPago
+2021-05-27 21:39:20,120 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-9] A continuacion se ejecutara el metodo: createPago
+2021-05-27 21:39:20,121 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-9] Metodo de la clase: class com.dan.cuentacorriente.service.impl.PagoServiceImpl
+2021-05-27 21:39:20,121 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-9] Argumentos: [Pago [id=null, cliente=com.dan.cuentacorriente.domain.Cliente@13b7c178, fechaPago=2021-05-28T00:39:20.118483100Z, medio=Cheque [nroCheque=10, fechaCobro=null, banco=Banco de la Nación Argentina, id=5, observacion=observacion]]]
+2021-05-27 21:39:20,147 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-9] Se ha ejecutado el metodo: createPago
+2021-05-27 21:40:56,885 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-3] A continuacion se ejecutara el metodo: createMedioPago
+2021-05-27 21:40:56,886 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-3] Metodo de la clase: class com.dan.cuentacorriente.service.impl.MedioPagoServiceImpl
+2021-05-27 21:40:56,886 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-3] Argumentos: [Cheque [nroCheque=123, fechaCobro=null, banco=Nuevo Banco de Santa Fe S.A., id=null, observacion=observacion]]
+2021-05-27 21:40:56,903 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-3] Se ha ejecutado el metodo: createMedioPago
+2021-05-27 21:40:56,906 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-3] A continuacion se ejecutara el metodo: createPago
+2021-05-27 21:40:56,906 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-3] Metodo de la clase: class com.dan.cuentacorriente.service.impl.PagoServiceImpl
+2021-05-27 21:40:56,906 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-3] Argumentos: [Pago [id=null, cliente=com.dan.cuentacorriente.domain.Cliente@7db39ee, fechaPago=2021-05-28T00:40:56.903498700Z, medio=Cheque [nroCheque=123, fechaCobro=null, banco=Nuevo Banco de Santa Fe S.A., id=6, observacion=observacion]]]
+2021-05-27 21:40:56,953 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-3] Se ha ejecutado el metodo: createPago
+2021-05-27 21:42:56,559 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-7] A continuacion se ejecutara el metodo: createMedioPago
+2021-05-27 21:42:56,560 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-7] Metodo de la clase: class com.dan.cuentacorriente.service.impl.MedioPagoServiceImpl
+2021-05-27 21:42:56,560 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-7] Argumentos: [Transferencia [cbuOrigen=007 - Banco de Galicia y Buenos Aires S.A., cbuDestino=065 - Banco Municipal de Rosario, codigoTransferencia=56233, id=null, observacion=observacion]]
+2021-05-27 21:42:56,563 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-7] Se ha ejecutado el metodo: createMedioPago
+2021-05-27 21:42:56,565 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-7] A continuacion se ejecutara el metodo: createPago
+2021-05-27 21:42:56,566 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-7] Metodo de la clase: class com.dan.cuentacorriente.service.impl.PagoServiceImpl
+2021-05-27 21:42:56,566 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-7] Argumentos: [Pago [id=null, cliente=com.dan.cuentacorriente.domain.Cliente@2454427, fechaPago=2021-05-28T00:42:56.564288Z, medio=Transferencia [cbuOrigen=007 - Banco de Galicia y Buenos Aires S.A., cbuDestino=065 - Banco Municipal de Rosario, codigoTransferencia=56233, id=7, observacion=observacion]]]
+2021-05-27 21:42:56,577 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-7] Se ha ejecutado el metodo: createPago
+2021-05-27 21:46:06,500 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-10] A continuacion se ejecutara el metodo: createMedioPago
+2021-05-27 21:46:06,501 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-10] Metodo de la clase: class com.dan.cuentacorriente.service.impl.MedioPagoServiceImpl
+2021-05-27 21:46:06,501 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-10] Argumentos: [Efectivo [nroRecibo=563, id=null, observacion=observacion 6]]
+2021-05-27 21:46:06,528 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-10] Se ha ejecutado el metodo: createMedioPago
+2021-05-27 21:46:06,531 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-10] A continuacion se ejecutara el metodo: createPago
+2021-05-27 21:46:06,532 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-10] Metodo de la clase: class com.dan.cuentacorriente.service.impl.PagoServiceImpl
+2021-05-27 21:46:06,532 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-10] Argumentos: [Pago [id=null, cliente=com.dan.cuentacorriente.domain.Cliente@40793706, fechaPago=2021-05-28T00:46:06.528371800Z, medio=Efectivo [nroRecibo=563, id=8, observacion=observacion 6]]]
+2021-05-27 21:46:06,567 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-10] Se ha ejecutado el metodo: createPago
+2021-05-27 21:46:57,211 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-9] A continuacion se ejecutara el metodo: createMedioPago
+2021-05-27 21:46:57,211 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-9] Metodo de la clase: class com.dan.cuentacorriente.service.impl.MedioPagoServiceImpl
+2021-05-27 21:46:57,211 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-9] Argumentos: [Transferencia [cbuOrigen=865756745333, cbuDestino=68883411243324, codigoTransferencia=900032, id=null, observacion=observacion]]
+2021-05-27 21:46:57,251 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-9] Se ha ejecutado el metodo: createMedioPago
+2021-05-27 21:46:57,253 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-9] A continuacion se ejecutara el metodo: createPago
+2021-05-27 21:46:57,254 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-9] Metodo de la clase: class com.dan.cuentacorriente.service.impl.PagoServiceImpl
+2021-05-27 21:46:57,254 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-9] Argumentos: [Pago [id=null, cliente=com.dan.cuentacorriente.domain.Cliente@32254bf4, fechaPago=2021-05-28T00:46:57.251709500Z, medio=Transferencia [cbuOrigen=865756745333, cbuDestino=68883411243324, codigoTransferencia=900032, id=9, observacion=observacion]]]
+2021-05-27 21:46:57,257 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-9] Se ha ejecutado el metodo: createPago
+2021-05-27 21:47:24,890 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-1] A continuacion se ejecutara el metodo: createMedioPago
+2021-05-27 21:47:24,890 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-1] Metodo de la clase: class com.dan.cuentacorriente.service.impl.MedioPagoServiceImpl
+2021-05-27 21:47:24,891 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-1] Argumentos: [Transferencia [cbuOrigen=12435321523521, cbuDestino=5432414256211, codigoTransferencia=56233, id=null, observacion=observacion 5]]
+2021-05-27 21:47:24,893 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-1] Se ha ejecutado el metodo: createMedioPago
+2021-05-27 21:47:24,895 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-1] A continuacion se ejecutara el metodo: createPago
+2021-05-27 21:47:24,895 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-1] Metodo de la clase: class com.dan.cuentacorriente.service.impl.PagoServiceImpl
+2021-05-27 21:47:24,895 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-1] Argumentos: [Pago [id=null, cliente=com.dan.cuentacorriente.domain.Cliente@45492d67, fechaPago=2021-05-28T00:47:24.894988900Z, medio=Transferencia [cbuOrigen=12435321523521, cbuDestino=5432414256211, codigoTransferencia=56233, id=10, observacion=observacion 5]]]
+2021-05-27 21:47:24,924 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-1] Se ha ejecutado el metodo: createPago
+2021-05-27 21:48:11,937 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-2] A continuacion se ejecutara el metodo: createMedioPago
+2021-05-27 21:48:11,938 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-2] Metodo de la clase: class com.dan.cuentacorriente.service.impl.MedioPagoServiceImpl
+2021-05-27 21:48:11,938 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-2] Argumentos: [Cheque [nroCheque=6211, fechaCobro=null, banco=Nuevo Banco de Santa Fe S.A., id=null, observacion=observacion]]
+2021-05-27 21:48:11,941 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-2] Se ha ejecutado el metodo: createMedioPago
+2021-05-27 21:48:11,943 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-2] A continuacion se ejecutara el metodo: createPago
+2021-05-27 21:48:11,944 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-2] Metodo de la clase: class com.dan.cuentacorriente.service.impl.PagoServiceImpl
+2021-05-27 21:48:11,944 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-2] Argumentos: [Pago [id=null, cliente=com.dan.cuentacorriente.domain.Cliente@2c0c9f8b, fechaPago=2021-05-28T00:48:11.942554400Z, medio=Cheque [nroCheque=6211, fechaCobro=null, banco=Nuevo Banco de Santa Fe S.A., id=11, observacion=observacion]]]
+2021-05-27 21:48:11,981 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-2] Se ha ejecutado el metodo: createPago
