@@ -68,10 +68,11 @@ public class PagoRest {
     }
     
     @PostMapping
-    public ResponseEntity<Pago> crear(@RequestBody Pago nuevo){
+    public ResponseEntity<?> crear(@RequestBody Pago nuevo){
     	System.out.println(" crear pago "+ nuevo);
     	
     	MedioPago medio;
+    	
     	try {
     		medio = medioServ.createMedioPago(nuevo.getMedio());
     	}catch(Exception e) {
@@ -84,9 +85,10 @@ public class PagoRest {
     	try {
     		nuevo.setCliente(clienteServ.findById(nuevo.getCliente().getId()).get());  		
     	}catch(Exception e) {
-    		throw new RuntimeException("--- Error, cliente inexistente --- ");
+    		return ResponseEntity.badRequest().body(("Cliente inexistente"));
     	}   	
         
+    	
         try {
         	Pago temp = pagoServ.createPago(nuevo);
         	return ResponseEntity.created(new URI("/api/pago" + temp.getId())).body(temp);
