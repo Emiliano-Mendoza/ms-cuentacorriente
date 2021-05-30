@@ -17,7 +17,7 @@ import javax.persistence.DiscriminatorColumn;
 import javax.persistence.DiscriminatorType;
 
 @Entity
-@Table(name="CC_MEDIO_PAGO", schema="MS_CC")
+@Table(name="CC_MEDIO_PAGO")
 @Inheritance(strategy = InheritanceType.SINGLE_TABLE)
 @DiscriminatorColumn(name = "tipo", discriminatorType = DiscriminatorType.STRING)
 @JsonTypeInfo(

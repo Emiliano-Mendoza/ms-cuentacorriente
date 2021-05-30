@@ -15,7 +15,7 @@ import javax.persistence.Temporal;
 import javax.persistence.TemporalType;
 
 @Entity
-@Table(name="CC_PAGO", schema="MS_CC")
+@Table(name="CC_PAGO")
 public class Pago {
 	
 	@Id
@@ -23,7 +23,7 @@ public class Pago {
 	private Integer id;
 	
 	@ManyToOne
-	@JoinColumn(name = "ID_CLIENTE")
+	@JoinColumn(name = "CLIENTE_ID")
 	private Cliente cliente;
 	
 	@Column(name = "FECHA_PAGO", columnDefinition = "TIME")
