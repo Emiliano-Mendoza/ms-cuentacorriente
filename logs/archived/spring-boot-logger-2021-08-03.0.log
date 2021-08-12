@@ -1,0 +1,19 @@
+2021-08-03 00:31:17,548 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting CuentacorrienteApplication using Java 15.0.1 on DESKTOP-KTL7JPA with PID 12520 (C:\Users\Usuario\Desktop\Sistemas\Electivas\Desarrollo de aplicaciones en la Nube\Laboratorio\Repositorios Integrados\dan-ms-cuentacorriente\target\classes started by Usuario in C:\Users\Usuario\Desktop\Sistemas\Electivas\Desarrollo de aplicaciones en la Nube\Laboratorio\Repositorios Integrados\dan-ms-cuentacorriente)
+2021-08-03 00:31:17,556 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-08-03 00:31:36,876 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started CuentacorrienteApplication in 20.035 seconds (JVM running for 21.594)
+2021-08-03 01:01:55,506 INFO org.springframework.boot.StartupInfoLogger [main] Starting PagoRestTest using Java 15.0.1 on DESKTOP-KTL7JPA with PID 10384 (started by Usuario in C:\Users\Usuario\Desktop\Sistemas\Electivas\Desarrollo de aplicaciones en la Nube\Laboratorio\Repositorios Integrados\dan-ms-cuentacorriente)
+2021-08-03 01:01:55,509 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.4.5, Spring v5.3.6
+2021-08-03 01:01:55,510 INFO org.springframework.boot.SpringApplication [main] The following profiles are active: testing
+2021-08-03 01:02:07,808 INFO org.springframework.boot.StartupInfoLogger [main] Started PagoRestTest in 12.974 seconds (JVM running for 15.568)
+2021-08-03 01:03:27,400 INFO org.springframework.boot.StartupInfoLogger [main] Starting PagoRestTest using Java 15.0.1 on DESKTOP-KTL7JPA with PID 8392 (started by Usuario in C:\Users\Usuario\Desktop\Sistemas\Electivas\Desarrollo de aplicaciones en la Nube\Laboratorio\Repositorios Integrados\dan-ms-cuentacorriente)
+2021-08-03 01:03:27,402 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.4.5, Spring v5.3.6
+2021-08-03 01:03:27,403 INFO org.springframework.boot.SpringApplication [main] The following profiles are active: testing
+2021-08-03 01:03:37,908 INFO org.springframework.boot.StartupInfoLogger [main] Started PagoRestTest in 11.192 seconds (JVM running for 13.516)
+2021-08-03 01:07:29,798 INFO org.springframework.boot.StartupInfoLogger [main] Starting PagoRestTest using Java 15.0.1 on DESKTOP-KTL7JPA with PID 16128 (started by Usuario in C:\Users\Usuario\Desktop\Sistemas\Electivas\Desarrollo de aplicaciones en la Nube\Laboratorio\Repositorios Integrados\dan-ms-cuentacorriente)
+2021-08-03 01:07:29,800 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.4.5, Spring v5.3.6
+2021-08-03 01:07:29,800 INFO org.springframework.boot.SpringApplication [main] The following profiles are active: testing
+2021-08-03 01:07:39,825 INFO org.springframework.boot.StartupInfoLogger [main] Started PagoRestTest in 10.657 seconds (JVM running for 12.906)
+2021-08-03 02:00:58,966 INFO org.springframework.boot.StartupInfoLogger [main] Starting PagoRestTest using Java 15.0.1 on DESKTOP-KTL7JPA with PID 9012 (started by Usuario in C:\Users\Usuario\Desktop\Sistemas\Electivas\Desarrollo de aplicaciones en la Nube\Laboratorio\Repositorios Integrados\dan-ms-cuentacorriente)
+2021-08-03 02:00:58,989 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.4.5, Spring v5.3.6
+2021-08-03 02:00:58,990 INFO org.springframework.boot.SpringApplication [main] The following profiles are active: testing
+2021-08-03 02:01:08,405 INFO org.springframework.boot.StartupInfoLogger [main] Started PagoRestTest in 10.039 seconds (JVM running for 11.997)
