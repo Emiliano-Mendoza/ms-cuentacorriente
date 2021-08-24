@@ -1,0 +1,142 @@
+2021-08-19 07:01:19,639 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting CuentacorrienteApplication using Java 15.0.1 on DESKTOP-KTL7JPA with PID 14800 (C:\Users\Usuario\Desktop\Sistemas\Electivas\Desarrollo de aplicaciones en la Nube\Laboratorio\Repositorios Integrados\dan-ms-cuentacorriente\target\classes started by Usuario in C:\Users\Usuario\Desktop\Sistemas\Electivas\Desarrollo de aplicaciones en la Nube\Laboratorio\Repositorios Integrados\dan-ms-cuentacorriente)
+2021-08-19 07:01:19,646 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-08-19 07:01:30,113 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started CuentacorrienteApplication in 11.17 seconds (JVM running for 12.366)
+2021-08-19 07:02:00,775 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-1] A continuacion se ejecutara el metodo: getAllPagos
+2021-08-19 07:02:00,776 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-1] Metodo de la clase: class com.dan.cuentacorriente.service.impl.PagoServiceImpl
+2021-08-19 07:02:00,777 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-1] Argumentos: []
+2021-08-19 07:02:01,217 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-1] Se ha ejecutado el metodo: getAllPagos
+2021-08-19 07:07:58,006 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-3] A continuacion se ejecutara el metodo: getAllPagos
+2021-08-19 07:07:58,007 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-3] Metodo de la clase: class com.dan.cuentacorriente.service.impl.PagoServiceImpl
+2021-08-19 07:07:58,007 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-3] Argumentos: []
+2021-08-19 07:07:58,020 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-3] Se ha ejecutado el metodo: getAllPagos
+2021-08-19 07:09:36,174 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-6] A continuacion se ejecutara el metodo: getAllPagos
+2021-08-19 07:09:36,178 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-6] Metodo de la clase: class com.dan.cuentacorriente.service.impl.PagoServiceImpl
+2021-08-19 07:09:36,179 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-6] Argumentos: []
+2021-08-19 07:09:36,208 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-6] Se ha ejecutado el metodo: getAllPagos
+2021-08-19 07:10:13,869 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting CuentacorrienteApplication using Java 15.0.1 on DESKTOP-KTL7JPA with PID 14800 (C:\Users\Usuario\Desktop\Sistemas\Electivas\Desarrollo de aplicaciones en la Nube\Laboratorio\Repositorios Integrados\dan-ms-cuentacorriente\target\classes started by Usuario in C:\Users\Usuario\Desktop\Sistemas\Electivas\Desarrollo de aplicaciones en la Nube\Laboratorio\Repositorios Integrados\dan-ms-cuentacorriente)
+2021-08-19 07:10:13,869 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to default profiles: default
+2021-08-19 07:10:16,636 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started CuentacorrienteApplication in 2.872 seconds (JVM running for 538.889)
+2021-08-19 07:10:35,371 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-1] A continuacion se ejecutara el metodo: getAllPagos
+2021-08-19 07:10:35,371 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-1] Metodo de la clase: class com.dan.cuentacorriente.service.impl.PagoServiceImpl
+2021-08-19 07:10:35,372 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-1] Argumentos: []
+2021-08-19 07:10:35,395 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-1] Se ha ejecutado el metodo: getAllPagos
+2021-08-19 07:10:50,502 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-4] A continuacion se ejecutara el metodo: getAllPagos
+2021-08-19 07:10:50,503 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-4] Metodo de la clase: class com.dan.cuentacorriente.service.impl.PagoServiceImpl
+2021-08-19 07:10:50,503 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-4] Argumentos: []
+2021-08-19 07:10:50,527 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-4] Se ha ejecutado el metodo: getAllPagos
+2021-08-19 07:11:14,153 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-5] A continuacion se ejecutara el metodo: getAllPagos
+2021-08-19 07:11:14,154 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-5] Metodo de la clase: class com.dan.cuentacorriente.service.impl.PagoServiceImpl
+2021-08-19 07:11:14,154 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-5] Argumentos: []
+2021-08-19 07:11:14,169 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-5] Se ha ejecutado el metodo: getAllPagos
+2021-08-19 07:11:16,306 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-6] A continuacion se ejecutara el metodo: getAllPagos
+2021-08-19 07:11:16,307 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-6] Metodo de la clase: class com.dan.cuentacorriente.service.impl.PagoServiceImpl
+2021-08-19 07:11:16,307 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-6] Argumentos: []
+2021-08-19 07:11:16,320 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-6] Se ha ejecutado el metodo: getAllPagos
+2021-08-19 07:11:25,512 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-7] A continuacion se ejecutara el metodo: getAllPagos
+2021-08-19 07:11:25,513 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-7] Metodo de la clase: class com.dan.cuentacorriente.service.impl.PagoServiceImpl
+2021-08-19 07:11:25,514 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-7] Argumentos: []
+2021-08-19 07:11:25,537 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-7] Se ha ejecutado el metodo: getAllPagos
+2021-08-19 07:11:31,549 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-9] A continuacion se ejecutara el metodo: getAllPagos
+2021-08-19 07:11:31,550 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-9] Metodo de la clase: class com.dan.cuentacorriente.service.impl.PagoServiceImpl
+2021-08-19 07:11:31,550 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-9] Argumentos: []
+2021-08-19 07:11:31,562 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-9] Se ha ejecutado el metodo: getAllPagos
+2021-08-19 07:16:51,235 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-2] A continuacion se ejecutara el metodo: getAllPagos
+2021-08-19 07:16:51,239 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-2] Metodo de la clase: class com.dan.cuentacorriente.service.impl.PagoServiceImpl
+2021-08-19 07:16:51,240 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-2] Argumentos: []
+2021-08-19 07:16:51,283 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-2] Se ha ejecutado el metodo: getAllPagos
+2021-08-19 07:16:54,724 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-3] A continuacion se ejecutara el metodo: getAllPagos
+2021-08-19 07:16:54,725 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-3] Metodo de la clase: class com.dan.cuentacorriente.service.impl.PagoServiceImpl
+2021-08-19 07:16:54,726 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-3] Argumentos: []
+2021-08-19 07:16:54,738 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-3] Se ha ejecutado el metodo: getAllPagos
+2021-08-19 07:17:13,265 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-8] A continuacion se ejecutara el metodo: getAllPagos
+2021-08-19 07:17:13,266 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-8] Metodo de la clase: class com.dan.cuentacorriente.service.impl.PagoServiceImpl
+2021-08-19 07:17:13,266 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-8] Argumentos: []
+2021-08-19 07:17:13,276 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-8] Se ha ejecutado el metodo: getAllPagos
+2021-08-19 07:17:30,541 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-1] A continuacion se ejecutara el metodo: getAllPagos
+2021-08-19 07:17:30,542 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-1] Metodo de la clase: class com.dan.cuentacorriente.service.impl.PagoServiceImpl
+2021-08-19 07:17:30,542 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-1] Argumentos: []
+2021-08-19 07:17:30,556 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-1] Se ha ejecutado el metodo: getAllPagos
+2021-08-19 07:25:49,340 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-5] A continuacion se ejecutara el metodo: getAllPagos
+2021-08-19 07:25:49,341 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-5] Metodo de la clase: class com.dan.cuentacorriente.service.impl.PagoServiceImpl
+2021-08-19 07:25:49,341 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-5] Argumentos: []
+2021-08-19 07:25:49,373 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-5] Se ha ejecutado el metodo: getAllPagos
+2021-08-19 07:25:58,262 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-6] A continuacion se ejecutara el metodo: getAllPagos
+2021-08-19 07:25:58,263 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-6] Metodo de la clase: class com.dan.cuentacorriente.service.impl.PagoServiceImpl
+2021-08-19 07:25:58,263 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-6] Argumentos: []
+2021-08-19 07:25:58,277 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-6] Se ha ejecutado el metodo: getAllPagos
+2021-08-19 07:27:42,247 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-9] A continuacion se ejecutara el metodo: getAllPagos
+2021-08-19 07:27:42,248 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-9] Metodo de la clase: class com.dan.cuentacorriente.service.impl.PagoServiceImpl
+2021-08-19 07:27:42,248 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-9] Argumentos: []
+2021-08-19 07:27:42,258 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-9] Se ha ejecutado el metodo: getAllPagos
+2021-08-19 07:27:54,048 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-10] A continuacion se ejecutara el metodo: getAllPagos
+2021-08-19 07:27:54,049 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-10] Metodo de la clase: class com.dan.cuentacorriente.service.impl.PagoServiceImpl
+2021-08-19 07:27:54,049 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-10] Argumentos: []
+2021-08-19 07:27:54,062 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-10] Se ha ejecutado el metodo: getAllPagos
+2021-08-19 07:28:05,609 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-2] A continuacion se ejecutara el metodo: getAllPagos
+2021-08-19 07:28:05,610 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-2] Metodo de la clase: class com.dan.cuentacorriente.service.impl.PagoServiceImpl
+2021-08-19 07:28:05,610 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-2] Argumentos: []
+2021-08-19 07:28:05,619 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-2] Se ha ejecutado el metodo: getAllPagos
+2021-08-19 07:28:27,063 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-3] A continuacion se ejecutara el metodo: getAllPagos
+2021-08-19 07:28:27,063 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-3] Metodo de la clase: class com.dan.cuentacorriente.service.impl.PagoServiceImpl
+2021-08-19 07:28:27,063 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-3] Argumentos: []
+2021-08-19 07:28:27,083 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-3] Se ha ejecutado el metodo: getAllPagos
+2021-08-19 07:28:31,738 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-8] A continuacion se ejecutara el metodo: getAllPagos
+2021-08-19 07:28:31,739 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-8] Metodo de la clase: class com.dan.cuentacorriente.service.impl.PagoServiceImpl
+2021-08-19 07:28:31,739 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-8] Argumentos: []
+2021-08-19 07:28:31,750 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-8] Se ha ejecutado el metodo: getAllPagos
+2021-08-19 07:28:46,230 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-1] A continuacion se ejecutara el metodo: getAllPagos
+2021-08-19 07:28:46,230 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-1] Metodo de la clase: class com.dan.cuentacorriente.service.impl.PagoServiceImpl
+2021-08-19 07:28:46,231 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-1] Argumentos: []
+2021-08-19 07:28:46,240 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-1] Se ha ejecutado el metodo: getAllPagos
+2021-08-19 07:33:21,232 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-5] A continuacion se ejecutara el metodo: getAllPagos
+2021-08-19 07:33:21,233 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-5] Metodo de la clase: class com.dan.cuentacorriente.service.impl.PagoServiceImpl
+2021-08-19 07:33:21,233 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-5] Argumentos: []
+2021-08-19 07:33:21,243 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-5] Se ha ejecutado el metodo: getAllPagos
+2021-08-19 07:33:27,256 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-6] A continuacion se ejecutara el metodo: getAllPagos
+2021-08-19 07:33:27,256 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-6] Metodo de la clase: class com.dan.cuentacorriente.service.impl.PagoServiceImpl
+2021-08-19 07:33:27,256 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-6] Argumentos: []
+2021-08-19 07:33:27,265 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-6] Se ha ejecutado el metodo: getAllPagos
+2021-08-19 07:36:16,189 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-9] A continuacion se ejecutara el metodo: getAllPagos
+2021-08-19 07:36:16,190 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-9] Metodo de la clase: class com.dan.cuentacorriente.service.impl.PagoServiceImpl
+2021-08-19 07:36:16,190 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-9] Argumentos: []
+2021-08-19 07:36:16,201 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-9] Se ha ejecutado el metodo: getAllPagos
+2021-08-19 07:36:45,242 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-10] A continuacion se ejecutara el metodo: getAllPagos
+2021-08-19 07:36:45,242 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-10] Metodo de la clase: class com.dan.cuentacorriente.service.impl.PagoServiceImpl
+2021-08-19 07:36:45,242 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-10] Argumentos: []
+2021-08-19 07:36:45,252 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-10] Se ha ejecutado el metodo: getAllPagos
+2021-08-19 07:36:48,030 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-2] A continuacion se ejecutara el metodo: getAllPagos
+2021-08-19 07:36:48,031 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-2] Metodo de la clase: class com.dan.cuentacorriente.service.impl.PagoServiceImpl
+2021-08-19 07:36:48,031 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-2] Argumentos: []
+2021-08-19 07:36:48,040 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-2] Se ha ejecutado el metodo: getAllPagos
+2021-08-19 07:37:03,380 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-3] A continuacion se ejecutara el metodo: getAllPagos
+2021-08-19 07:37:03,381 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-3] Metodo de la clase: class com.dan.cuentacorriente.service.impl.PagoServiceImpl
+2021-08-19 07:37:03,381 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-3] Argumentos: []
+2021-08-19 07:37:03,396 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-3] Se ha ejecutado el metodo: getAllPagos
+2021-08-19 07:41:39,622 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-1] A continuacion se ejecutara el metodo: getAllPagos
+2021-08-19 07:41:39,623 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-1] Metodo de la clase: class com.dan.cuentacorriente.service.impl.PagoServiceImpl
+2021-08-19 07:41:39,623 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-1] Argumentos: []
+2021-08-19 07:41:39,643 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-1] Se ha ejecutado el metodo: getAllPagos
+2021-08-19 07:41:43,867 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-4] A continuacion se ejecutara el metodo: getAllPagos
+2021-08-19 07:41:43,867 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-4] Metodo de la clase: class com.dan.cuentacorriente.service.impl.PagoServiceImpl
+2021-08-19 07:41:43,867 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-4] Argumentos: []
+2021-08-19 07:41:43,877 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-4] Se ha ejecutado el metodo: getAllPagos
+2021-08-19 07:42:07,664 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-5] A continuacion se ejecutara el metodo: getAllPagos
+2021-08-19 07:42:07,665 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-5] Metodo de la clase: class com.dan.cuentacorriente.service.impl.PagoServiceImpl
+2021-08-19 07:42:07,665 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-5] Argumentos: []
+2021-08-19 07:42:07,673 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-5] Se ha ejecutado el metodo: getAllPagos
+2021-08-19 07:42:09,871 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-6] A continuacion se ejecutara el metodo: getAllPagos
+2021-08-19 07:42:09,872 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-6] Metodo de la clase: class com.dan.cuentacorriente.service.impl.PagoServiceImpl
+2021-08-19 07:42:09,872 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-6] Argumentos: []
+2021-08-19 07:42:09,881 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-6] Se ha ejecutado el metodo: getAllPagos
+2021-08-19 07:47:36,350 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-9] A continuacion se ejecutara el metodo: getAllPagos
+2021-08-19 07:47:36,351 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-9] Metodo de la clase: class com.dan.cuentacorriente.service.impl.PagoServiceImpl
+2021-08-19 07:47:36,351 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-9] Argumentos: []
+2021-08-19 07:47:36,360 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-9] Se ha ejecutado el metodo: getAllPagos
+2021-08-19 07:47:42,985 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-10] A continuacion se ejecutara el metodo: getAllPagos
+2021-08-19 07:47:42,985 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-10] Metodo de la clase: class com.dan.cuentacorriente.service.impl.PagoServiceImpl
+2021-08-19 07:47:42,985 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-10] Argumentos: []
+2021-08-19 07:47:42,993 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-10] Se ha ejecutado el metodo: getAllPagos
+2021-08-19 07:48:32,263 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-2] A continuacion se ejecutara el metodo: getAllPagos
+2021-08-19 07:48:32,263 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-2] Metodo de la clase: class com.dan.cuentacorriente.service.impl.PagoServiceImpl
+2021-08-19 07:48:32,263 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-2] Argumentos: []
+2021-08-19 07:48:32,270 INFO com.dan.cuentacorriente.aspect.LogAspect [http-nio-9003-exec-2] Se ha ejecutado el metodo: getAllPagos

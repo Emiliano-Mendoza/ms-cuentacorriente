@@ -1,0 +1,4 @@
+2021-08-12 01:04:27,251 INFO org.springframework.boot.StartupInfoLogger [main] Starting PagoRestTest using Java 15.0.1 on DESKTOP-KTL7JPA with PID 18292 (started by Usuario in C:\Users\Usuario\Desktop\Sistemas\Electivas\Desarrollo de aplicaciones en la Nube\Laboratorio\Repositorios Integrados\dan-ms-cuentacorriente)
+2021-08-12 01:04:27,261 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.4.5, Spring v5.3.6
+2021-08-12 01:04:27,262 INFO org.springframework.boot.SpringApplication [main] The following profiles are active: testing
+2021-08-12 01:05:08,142 INFO org.springframework.boot.StartupInfoLogger [main] Started PagoRestTest in 43.233 seconds (JVM running for 51.205)
